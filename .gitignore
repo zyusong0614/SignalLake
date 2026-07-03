@@ -1,0 +1,97 @@
+# macOS metadata and AppleDouble resource forks
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment and secrets (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.secrets/
+*.secret.yaml
+*.secret.yml
+*.pem
+*.key
+
+# Logs, temporary files, and local runtime state
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.pid
+*.pid.lock
+.cache/
+.data/
+.artifacts/
+.spool/
+.minio/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Node.js / React / TypeScript
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.next/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Java / Gradle
+.gradle/
+target/
+out/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+hs_err_pid*
+
+# Generated HIL and data-platform artifacts
+*.mf4
+*.mdf
+*.parquet
+*.arrow
+*.feather
+*.pcap
+*.pcapng
+
+# Containers and local infrastructure
+docker-compose.override.yml
+docker-compose.override.yaml
+.terraform/
+*.tfstate
+*.tfstate.*
+.helm/
